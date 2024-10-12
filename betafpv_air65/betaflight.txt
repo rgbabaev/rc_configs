@@ -92,7 +92,7 @@ set osd_crosshairs_pos = 237
 set osd_current_pos = 2400
 set osd_mah_drawn_pos = 2434
 set osd_craft_name_pos = 395
-set osd_pilot_name_pos = 2092
+set osd_pilot_name_pos = 2093
 set osd_home_dist_pos = 98
 set osd_flight_dist_pos = 130
 set osd_warnings_pos = 2378
@@ -109,10 +109,11 @@ set osd_canvas_height = 13
 set debug_mode = GYRO_SCALED
 set vtx_band = 5
 set vtx_channel = 5
-set vtx_power = 1
+set vtx_power = 5
 set vtx_freq = 5806
 set vcd_video_system = AUTO
 set craft_name = AIR65 F
+set pilot_name = JUPEL
 
 profile 0
 
