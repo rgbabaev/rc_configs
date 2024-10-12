@@ -19,6 +19,7 @@ signature
 # name: AIR65 F
 
 # feature
+feature -AIRMODE
 feature OSD
 
 # beacon
@@ -27,10 +28,10 @@ beacon RX_SET
 
 # aux
 aux 0 0 0 1700 2100 0 0
-aux 1 1 1 900 1300 0 0
-aux 2 2 1 1300 1700 0 0
-aux 3 13 3 1700 2100 0 0
-aux 4 35 2 1700 2100 0 0
+aux 1 1 1 1700 2100 0 0
+aux 2 13 4 1700 2100 0 0
+aux 3 28 1 900 1300 0 0
+aux 4 35 3 1700 2100 0 0
 
 # vtxtable
 vtxtable bands 6
@@ -44,6 +45,18 @@ vtxtable band 6 LOWRACE  L FACTORY 5362 5399 5436 5473 5510 5547 5584 5621
 vtxtable powerlevels 5
 vtxtable powervalues 1 2 3 4 0
 vtxtable powerlabels 25 100 200 400 PIT
+
+# vtx
+vtx 0 5 0 1 0 1000 1125
+vtx 1 5 0 2 0 1125 1250
+vtx 2 5 0 3 0 1250 1375
+vtx 3 5 0 4 0 1375 1500
+vtx 4 5 0 5 0 1500 1625
+vtx 5 5 0 6 0 1625 1750
+vtx 6 5 0 7 0 1750 1875
+vtx 7 5 0 8 0 1875 2000
+vtx 8 2 0 0 1 900 1300
+vtx 9 2 0 0 5 1300 1700
 
 # master
 set gyro_lpf1_static_hz = 0
@@ -94,9 +107,9 @@ set osd_canvas_width = 30
 set osd_canvas_height = 13
 set debug_mode = GYRO_SCALED
 set vtx_band = 5
-set vtx_channel = 1
+set vtx_channel = 5
 set vtx_power = 1
-set vtx_freq = 5658
+set vtx_freq = 5806
 set vcd_video_system = AUTO
 set craft_name = AIR65 F
 
