@@ -119,6 +119,7 @@ profile 0
 
 # profile 0
 set profile_name = HQ 31mm
+set vbat_sag_compensation = 100
 set p_pitch = 77
 set i_pitch = 138
 set d_pitch = 50
